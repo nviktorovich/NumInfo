@@ -20,5 +20,5 @@ func IsPrime(n int) bool {
 
 // IsOdd func get int number (n) and returned bool value: true - if n is odd, and false - if n is not odd
 func IsOdd(n int) bool {
-	return !(n&2 == 0)
+	return !(n%2 == 0)
 }
