@@ -20,3 +20,8 @@ func IsPrime(n int) bool {
 func IsOdd(n int) bool {
 	return !(n%2 == 0)
 }
+
+// IsBigger func get two int numbers, and returned true if n1 > n2, else - false
+func IsBigger(n1, n2 int) bool {
+	return n1 > n2
+}
