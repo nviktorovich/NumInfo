@@ -1,7 +1,6 @@
 package NumInfo
 
-// IsPrime func get int number (n) and returned bool value:
-// true - if n is prime number, and false - if n is not prime number
+// IsPrime func get int number (n) and returned bool value: true - if n is prime number, and false - if n is not prime number
 func IsPrime(n int) bool {
 	var flag bool
 	if n < 2 {
